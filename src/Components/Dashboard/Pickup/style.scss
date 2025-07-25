@@ -1,0 +1,58 @@
+.ToggleDays-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ToggleDays-day {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .ToggleDays-selectedDay {
+    background: rgb(35, 99, 236);
+    color: white;
+  }
+  
+  .time-picker-container {
+    display: inline-block;
+    position: relative;
+  
+    .toggle-button {
+      padding: 10px;
+      cursor: pointer;
+    }
+  
+    .time-picker {
+      position: absolute;
+      top: 40px;
+      left: 0;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+  
+      .time-option {
+        padding: 10px;
+        cursor: pointer;
+  
+        &:hover {
+          background: #f0f0f0;
+        }
+  
+        &.selected {
+          background: #007bff;
+          color: #fff;
+        }
+      }
+    }
+  }
+  

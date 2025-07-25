@@ -1,0 +1,52 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  font-family:'SF Pro Display','SF Pro Icons','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+/* Webkit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 8px; /* Thinner scrollbar width */
+  height: 8px; /* Thinner scrollbar height for horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Keep the track invisible */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Lightly visible scrollbar thumb */
+  border-radius: 10px; /* Rounded thumb */
+}
+
+.your-specific-div::-webkit-scrollbar {
+  width: 6px; /* Even thinner scrollbar in specific div */
+}
+
+.your-specific-div::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* Slightly darker thumb for specific div */
+  border-radius: 6px;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin; /* Use 'thin' for a smaller scrollbar */
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent; /* Thumb and track colors */
+}
+
+/* Optional: for larger screens, you can set specific styles */
+@media (min-width: 768px) {
+  * {
+    scrollbar-width: auto; /* Restore default width for larger screens */
+  }
+}
+

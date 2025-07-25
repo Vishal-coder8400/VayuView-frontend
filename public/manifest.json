@@ -1,0 +1,18 @@
+{
+  "short_name": "Vayuguard AQI",
+  "name": "We are a leading B2B business and logistics aggregation platform, revolutionizing the way of businesses connect and optimize their supply ...",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

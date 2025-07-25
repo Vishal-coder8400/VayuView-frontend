@@ -1,0 +1,18 @@
+{
+  "aws_d": {
+    "humidity": "",
+    "temp": "",
+    "pm2.5": "",
+    "pm10.0": "",
+    "co2": "",
+    "tvoc": "",
+    "hcho": "",
+    "humidity_outdoor": "",
+    "temp_outdoor": "",
+    "pm2.5_outdoor": "",
+    "pm10.0_outdoor": "",
+    "co2_outdoor": "",
+    "tvoc_outdoor": "",
+    "hcho_outdoor": ""
+  }
+}

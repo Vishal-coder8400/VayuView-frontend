@@ -1,0 +1,30 @@
+.no-records-wrapper{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575; // Grey color for text
+    flex-direction: column;
+}
+
+.no-records{
+    height: auto;
+    color: #5d5d5d;
+}
+
+  .no-records-icon {
+    margin-bottom: 16px; // Space between icon and text
+  }
+  
+  .no-records {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .no-records-message {
+    font-size: 16px;
+    color: #9e9e9e;
+    margin-top: 8px;
+  }
+  

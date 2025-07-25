@@ -1,0 +1,227 @@
+.wallet--app {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 64px;
+  }
+  .wallet-section-option {
+    height: 260px;
+    min-height: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 22px;
+    border: 1px solid #d3d3d350;
+    border-radius: 24px;
+    padding: 32px;
+    transition: all 0.4s ease-out;
+    margin-bottom: 20px;
+    p{
+        font-weight: 300;
+    }
+    h1 {
+        font-size: 84px;
+      }
+  }
+.wallet-transaction-wrapper{
+  height: auto;
+  min-height: 160px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 112%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 22px;
+  border: 1px solid #d3d3d350;
+  border-radius: 24px;
+  transition: all 0.4s ease-out;
+  h3{
+    font-size: 20px;
+  }
+  .wallet--transaction-list {
+    list-style-type: none; /* Remove the default bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .wallet--transaction-list li {
+    margin-bottom: 10px; /* Add some space between list items */
+    font-size: 16px; /* Set the font size */
+  }
+  
+  .received {
+    color: green; /* Change the text color for received transactions */
+  }
+  
+  .sent {
+    color: red; /* Change the text color for sent transactions */
+  }
+  
+}
+  .wallet-section-buttons{
+    width: 100%;
+    button{
+      height: 40px;
+      width: 120px;
+      margin-right: 30px;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      font-size: 18px;
+    }
+
+    button.green{
+      background-color: rgba(38, 219, 38, 0.247);
+      color: rgb(23, 215, 23);
+    }
+
+    button.red{
+      background-color: rgba(219, 38, 38, 0.247);
+      color: rgb(219, 38, 38);
+    }
+
+    button.outline{
+      border: 1px solid rgba(38, 107, 219, 0.247);
+      background-color: transparent;
+      color: rgb(38, 107, 219);
+    }
+  }
+  
+  .wallet-section-option:hover{
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 15px #d3d3d379;
+  }
+  
+  .wallet--wallet-section {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+
+  
+    .wallet--transaction-list {
+      list-style-type: disc;
+      padding-left: 20px;
+  
+      li {
+        margin: 5px 0;
+      }
+    }
+  }
+  
+  .wallet--add-money-section {
+    width: 45%;
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    .wallet--steps {
+      list-style-type: decimal;
+      padding-left: 20px;
+  
+      li {
+        margin: 10px 0;
+      }
+    }
+  }
+  
+
+  .wallet--steps {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .wallet--steps li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .step-box {
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .wallet--transaction-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .wallet--transaction-table th, .wallet--transaction-table td {
+    // border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .wallet--transaction-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .wallet--transaction-table .sent {
+    color: red;
+  }
+  
+  .wallet-modal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .wallet-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .wallet-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .wallet-close:hover,
+  .wallet-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .wallet-open-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  

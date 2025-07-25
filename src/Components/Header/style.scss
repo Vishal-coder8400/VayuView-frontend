@@ -1,0 +1,46 @@
+@import "../../sass/_colors.scss";
+
+.header {
+  background-color: #F5F7F9 !important;
+  // background-color: #FFFFFF;
+  color: #161616;
+  text-align: center;
+  height: 56px;
+  position: fixed;
+  width: calc(100vw - 250px);
+  margin-left: 250px;
+  display: flex;
+  padding-left: 6px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  // box-shadow: 0 0px 10px #d3d3d350;
+  border-bottom: 1px solid #d3d3d390;
+  z-index: 1;
+}
+
+.header h1 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.nav-buttons button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #161616;
+  font-size: 14px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.nav-buttons .green-button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  background-color: $primary-color;
+  padding: 6px 12px 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}

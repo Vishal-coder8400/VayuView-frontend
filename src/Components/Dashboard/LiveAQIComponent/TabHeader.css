@@ -1,0 +1,36 @@
+.tab-container {
+    padding: 10px 0;
+  }
+  
+  .tab-header {
+    display: flex;
+    overflow-x: auto;
+    padding: 0 10px;
+    white-space: nowrap;
+  }
+  
+  .tab {
+    padding: 6px 10px;
+    margin: 0 1px;
+    background-color: #f0f0f0;
+    border-radius: 0px;
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    border-radius: 6px;
+  }
+  
+  .active-tab {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .tab:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .tab-header::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar for the horizontal tab list */
+  }
+  

@@ -1,0 +1,34 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .tracking-form {
+    margin-bottom: 20px;
+  }
+  
+  .tracking-form input {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .tracking-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tracking-result {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .tracking-result h2 {
+    margin-top: 0;
+  }
+  
