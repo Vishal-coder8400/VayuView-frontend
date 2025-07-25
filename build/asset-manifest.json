@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fa7f2f4e.css",
-    "main.js": "/static/js/main.bef9f925.js",
+    "main.js": "/static/js/main.244330a4.js",
     "static/js/239.a3eb75fd.chunk.js": "/static/js/239.a3eb75fd.chunk.js",
     "static/js/213.67ce7dcb.chunk.js": "/static/js/213.67ce7dcb.chunk.js",
     "static/js/455.4f9230fa.chunk.js": "/static/js/455.4f9230fa.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/icons8-logistics-94.png": "/static/media/icons8-logistics-94.77cd05d9807434be8468.png",
     "index.html": "/index.html",
     "main.fa7f2f4e.css.map": "/static/css/main.fa7f2f4e.css.map",
-    "main.bef9f925.js.map": "/static/js/main.bef9f925.js.map",
+    "main.244330a4.js.map": "/static/js/main.244330a4.js.map",
     "239.a3eb75fd.chunk.js.map": "/static/js/239.a3eb75fd.chunk.js.map",
     "213.67ce7dcb.chunk.js.map": "/static/js/213.67ce7dcb.chunk.js.map",
     "455.4f9230fa.chunk.js.map": "/static/js/455.4f9230fa.chunk.js.map",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.fa7f2f4e.css",
-    "static/js/main.bef9f925.js"
+    "static/js/main.244330a4.js"
   ]
 }
